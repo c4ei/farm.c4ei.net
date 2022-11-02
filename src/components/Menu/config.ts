@@ -6,20 +6,20 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: '/',
   },
-  // {
-  //   label: 'Trade',
-  //   icon: 'TradeIcon',
-  //   items: [
-  //     {
-  //       label: 'Exchange',
-  //       href: 'https://chg.c4ei.net/',
-  //     },
-  //     {
-  //       label: 'Liquidity',
-  //       href: 'https://chg.c4ei.net/#/pool',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'Trade',
+    icon: 'TradeIcon',
+    items: [
+      {
+        label: 'Exchange',
+        href: 'https://swap.c4ei.net/swap?chainId=21004',
+      },
+      {
+        label: 'Liquidity',
+        href: 'https://swap.c4ei.net/liquidity?chainId=21004',
+      },
+    ],
+  },
   {
     label: 'Farms',
     icon: 'FarmIcon',
@@ -75,10 +75,10 @@ const config: MenuEntry[] = [
         label: 'SAWON Scan',
         href: 'https://exp.c4ei.net/account/0x52D1eC2ed762D7Fb3bE336Ec678569C730B87d66',
       },
-      {
-        label: 'SAWON Price Graph',
-        href: 'https://dex.guru/token/0x52D1eC2ed762D7Fb3bE336Ec678569C730B87d66-bsc',
-      }
+      // {
+      //   label: 'SAWON Price Graph',
+      //   href: 'https://dex.guru/token/0x52D1eC2ed762D7Fb3bE336Ec678569C730B87d66-bsc',
+      // }
       // ,{
       //   label: 'TOFY BSC Scan',
       //   href: 'https://exp.c4ei.net/token/0xe1f2d89a6c79b4242f300f880e490a70083e9a1c',
@@ -97,17 +97,13 @@ const config: MenuEntry[] = [
         label: "Github",
         href: "https://github.com/c4ei",
       },
-      // {
-      //   label: "Docs",
-      //   href: "https://marshmallowswap.gitbook.io/marshmallowswap/",
-      // },
-      // {
-      //   label: "Blog",
-      //   href: "https://medium.com/@marshmallowdefi",
-      // },
       {
         label: "Telegram",
-        href: "https://t.me/c4eiAirdrop"
+        href: "https://t.me/c4eiAirdrop",
+      },
+      {
+        label: "설명서",
+        href: "https://docs.google.com/document/d/1qT76SW6ft_nKA7guj16Ty_veOo-s2vI_0KNB2OP3ugc/edit?usp=sharing",
       },
     ],
   },
